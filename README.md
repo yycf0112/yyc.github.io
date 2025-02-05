@@ -1,4 +1,4 @@
-Welcome to my GitHub repository! This space includes projects focused on data analysis and predictive modeling.
+This space includes projects focused on data analysis.
 
 1. Booking.com Price Prediction
 In this project, I analyze accommodation pricing data from Booking.com to predict the prices of hotels and properties based on various features such as location, room type, customer ratings, and amenities.
