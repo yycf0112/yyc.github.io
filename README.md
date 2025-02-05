@@ -1,4 +1,3 @@
-# yyc.github.io
 Welcome to my GitHub repository! This space includes projects focused on data analysis and predictive modeling.
 
 1. Booking.com Price Prediction
