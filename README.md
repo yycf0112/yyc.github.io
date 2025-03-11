@@ -25,10 +25,13 @@ Segmenting vehicles based on fuel efficiency patterns to analyze performance tre
 Assessing underwriting risk and optimizing policyholder classification using machine learning models.
 
 **Data Cleaning & Feature Engineering:** Handled missing values, standardized numerical variables, and engineered risk-related features.
+
 **Model Development:** Trained multiple models (Logistic Regression, Random Forest, XGBoost) to classify policyholders into risk groups.
+
 **Evaluation & Impact Analysis**:
 Measured performance using Balanced Accuracy, ROC-AUC, and Recall for high-risk groups.
 Estimated financial impact by analyzing misclassification costs in underwriting decisions.
+
 **Business Applications**:
 Enhanced fraud detection and policyholder segmentation.
 Developed strategies to adjust premium pricing dynamically based on risk profiles.
