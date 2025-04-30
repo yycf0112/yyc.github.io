@@ -36,3 +36,16 @@ Estimated financial impact by analyzing misclassification costs in underwriting 
 Enhanced fraud detection and policyholder segmentation.
 Developed strategies to adjust premium pricing dynamically based on risk profiles.
 Proposed deployment of predictive models for real-time underwriting decisions.
+
+### **5. Cookie Cats A/B Testing — Game Design Optimization**
+Product experiment measuring the impact of gate placement on player retention
+
+**Experiment Design**: Analyzed randomized A/B test comparing level 30 (control) vs. level 40 (test) gate placement
+
+**Statistical Testing**: Conducted Mann-Whitney U and Chi-Square tests on engagement and retention
+
+**Result**: gate_40 had no engagement benefit but led to a significant drop in Day 7 retention (Δ = -0.83%)
+
+**Recommendation**: Keep the gate at level 30 to preserve early retention and reduce churn
+
+**Strategic Impact**: Showcased data-driven feature decision-making in live game environments
