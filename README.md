@@ -1,51 +1,60 @@
-## **Data Analysis Portfolio**  
+###  **Data Analysis Portfolio**
 
-### **1. Booking.com Price Prediction**  
-Predicting hotel prices using machine learning models based on property details and customer ratings.  
 
-**Data Collection:** Scraped property, pricing, and rating data from Booking.com.  
-**EDA & Feature Engineering:** Explored correlations, engineered features like booking recency.  
-**Machine Learning:** Built models (Random Forest, XGBoost, Gradient Boosting) for price prediction.  
+### **1. Udacity Free Trial Screener A/B Testing — User Quality Filtering**
 
-### **2. Customer Personality Analysis**  
-Segmenting customers based on purchasing behavior to understand personality-driven buying patterns.  
+*Product experimentation to optimize conversion quality without hurting revenue*
 
-**Data Preprocessing:** Cleaned and transformed raw customer data.  
-**Clustering Analysis:** Applied K-Means to group customers by preferences.  
-**Visualizations & Insights:** Identified trends in customer-product interactions.  
+* Designed and analyzed a randomized A/B test measuring the effect of a time commitment screener on user behavior.
+* Conducted data validation, traffic balance checks, and cleaned missing values symmetrically to maintain test validity.
+* Performed Z-tests and confidence interval analysis on gross and net conversion.
+* Found a **statistically significant 1.25% drop in enrollments** with **no significant impact on paying users**.
+* **Recommendation:** Deploy the screener to improve user quality and reduce downstream churn risk.
+* **Business Impact:** Demonstrated data-driven product decision-making with clear statistical rigor.
 
-### **3. Fuel Economy Data Analysis**  
-Segmenting vehicles based on fuel efficiency patterns to analyze performance trends.  
 
-**Data Exploration:** Examined vehicle types, fuel consumption, and emissions.  
-**Clustering Analysis:** Used K-Means to classify vehicles.  
-**Insights & Recommendations:** Identified key factors affecting fuel economy and proposed improvements with Tableau. 
+### **2. Cookie Cats A/B Testing — Game Design Optimization**
+
+*Product feature evaluation through user retention analysis*
+
+* Analyzed a live A/B test comparing gate placements at level 30 (control) and 40 (treatment).
+* Used Mann-Whitney U and Chi-Square tests to assess retention and engagement.
+* Identified a **significant drop in 7-day retention** for gate\_40 with **no engagement benefit**.
+* Recommended retaining gate\_30 to preserve early user retention and reduce churn.
+
+
+### **3. Booking.com Price Prediction**
+
+*Predictive modeling to estimate hotel prices based on property and customer data*
+
+* Scraped hotel data from Booking.com, including ratings, location, and amenities.
+* Engineered features such as review density and booking recency.
+* Built and tuned machine learning models (Random Forest, XGBoost) for price prediction.
+
 
 ### **4. Prudential Life Insurance Risk Analysis**
-Assessing underwriting risk and optimizing policyholder classification using machine learning models.
 
-**Data Cleaning & Feature Engineering:** Handled missing values, standardized numerical variables, and engineered risk-related features.
+*Machine learning for policyholder risk segmentation and financial impact estimation*
 
-**Model Development:** Trained multiple models (Logistic Regression, Random Forest, XGBoost) to classify policyholders into risk groups.
+* Cleaned and engineered features for a large insurance dataset.
+* Trained models (Logistic Regression, Random Forest, XGBoost) to classify risk levels.
+* Evaluated using Balanced Accuracy and ROC-AUC; analyzed **misclassification cost** to estimate underwriting impact.
+* Proposed data-driven premium adjustment strategies and real-time underwriting model deployment.
 
-**Evaluation & Impact Analysis**:
-Measured performance using Balanced Accuracy, ROC-AUC, and Recall for high-risk groups.
-Estimated financial impact by analyzing misclassification costs in underwriting decisions.
 
-**Business Applications**:
-Enhanced fraud detection and policyholder segmentation.
-Developed strategies to adjust premium pricing dynamically based on risk profiles.
-Proposed deployment of predictive models for real-time underwriting decisions.
+### **5. Customer Personality Analysis**
 
-### **5. Cookie Cats A/B Testing — Game Design Optimization**
-Product experiment measuring the impact of gate placement on player retention
+*Behavioral clustering for marketing segmentation*
 
-**Experiment Design**: Analyzed randomized A/B test comparing level 30 (control) vs. level 40 (test) gate placement
+* Cleaned raw transaction and profile data to prepare for unsupervised learning.
+* Applied K-Means to segment customers by product preferences and lifestyle indicators.
+* Created visual dashboards to highlight patterns in high-value customer segments.
 
-**Statistical Testing**: Conducted Mann-Whitney U and Chi-Square tests on engagement and retention
 
-**Result**: gate_40 had no engagement benefit but led to a significant drop in Day 7 retention (Δ = -0.83%)
+### **6. Fuel Economy Data Analysis**
 
-**Recommendation**: Keep the gate at level 30 to preserve early retention and reduce churn
+*Vehicle performance clustering to improve environmental impact strategy*
 
-**Strategic Impact**: Showcased data-driven feature decision-making in live game environments
+* Analyzed vehicle fuel consumption and emissions trends.
+* Applied K-Means clustering to group vehicles by fuel efficiency and engine characteristics.
+* Visualized key insights with Tableau and proposed eco-efficiency labeling improvements.
