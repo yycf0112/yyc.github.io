@@ -34,6 +34,8 @@
 
 ## Folder Structure
 
+```plaintext
+
 youtube_data_pipeline_project/
 │
 ├── extract/                          # 1. Data extraction logic
@@ -56,7 +58,7 @@ youtube_data_pipeline_project/
 │
 ├── README.md                         # Project documentation
 
-
+```
 ---
 
 ## Dashboards
