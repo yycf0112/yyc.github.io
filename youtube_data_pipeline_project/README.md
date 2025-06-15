@@ -27,8 +27,8 @@
 4. **Visualization (Metabase)**  
    - Connected to Snowflake using Metabase (via Docker)  
    - Created charts using the final mart table:  
-     - 📈 Monthly Video Upload Trend  
-     - 📊 Top Videos by Engagement Rate  
+     - Total Videos Published per Channel  
+     - Average Engagement Rate – techTFQ Channel
 
 ---
 
@@ -63,7 +63,7 @@ youtube_data_pipeline_project/
 
 ## Dashboards
 
-- **Chart 1:** *Total Videos Published per Channe*  
+- **Chart 1:** *Total Videos Published per Channel*  
   A bar chart showing the number of videos published by each YouTube channel.
 
 - **Chart 2:** *Average Engagement Rate – techTFQ Channel*  
