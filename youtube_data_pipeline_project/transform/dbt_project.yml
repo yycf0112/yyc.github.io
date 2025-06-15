@@ -1,0 +1,8 @@
+models:
+  youtube_pipeline_project:
+    staging:
+      +schema: STAGING
+      +materialized: view
+    marts:
+      +schema: ANALYTICS
+      +materialized: table
