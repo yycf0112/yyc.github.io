@@ -64,10 +64,10 @@ youtube_data_pipeline_project/
 ## Dashboards
 
 - **Chart 1:** *Total Videos Published per Channe*  
-  > A bar chart showing the number of videos published by each YouTube channel.
+  A bar chart showing the number of videos published by each YouTube channel.
 
 - **Chart 2:** *Average Engagement Rate – techTFQ Channel*  
-  > A line chart tracking the average engagement rate over time for the techTFQ channel. Engagement rate is calculated as `(likes + comments) / views`.
+  A line chart tracking the average engagement rate over time for the techTFQ channel. Engagement rate is calculated as `(likes + comments) / views`.
 
 ---
 
