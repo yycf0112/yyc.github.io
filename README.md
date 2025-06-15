@@ -1,7 +1,16 @@
 ###  **Data Analysis Portfolio**
 
+### **1. YouTube Data Pipeline Project — End-to-End ELT and Dashboarding**
 
-### **1. Udacity Free Trial Screener A/B Testing — User Quality Filtering**
+*Cloud-native pipeline for public YouTube video metrics using Snowflake, dbt, and Metabase*
+
+* Extracted video metadata via YouTube API using Python and exported as CSV
+* Loaded data into Snowflake RAW schema and transformed using dbt (STAGING → MART)
+* Built final aggregated tables with engagement rate logic
+* Created charts and dashboards in Metabase to monitor channel performance
+* Technologies: Python, Snowflake, dbt, Metabase
+
+### **2. Udacity Free Trial Screener A/B Testing — User Quality Filtering**
 
 *Product experimentation to optimize conversion quality without hurting revenue*
 
@@ -13,7 +22,7 @@
 * **Business Impact:** Demonstrated data-driven product decision-making with clear statistical rigor.
 
 
-### **2. Cookie Cats A/B Testing — Game Design Optimization**
+### **3. Cookie Cats A/B Testing — Game Design Optimization**
 
 *Product feature evaluation through user retention analysis*
 
@@ -23,7 +32,7 @@
 * Recommended retaining gate\_30 to preserve early user retention and reduce churn.
 
 
-### **3. Booking.com Price Prediction**
+### **4. Booking.com Price Prediction**
 
 *Predictive modeling to estimate hotel prices based on property and customer data*
 
@@ -32,7 +41,7 @@
 * Built and tuned machine learning models (Random Forest, XGBoost) for price prediction.
 
 
-### **4. Prudential Life Insurance Risk Analysis**
+### **5. Prudential Life Insurance Risk Analysis**
 
 *Machine learning for policyholder risk segmentation and financial impact estimation*
 
@@ -42,7 +51,7 @@
 * Proposed data-driven premium adjustment strategies and real-time underwriting model deployment.
 
 
-### **5. Customer Personality Analysis**
+### **6. Customer Personality Analysis**
 
 *Behavioral clustering for marketing segmentation*
 
@@ -51,7 +60,7 @@
 * Created visual dashboards to highlight patterns in high-value customer segments.
 
 
-### **6. Fuel Economy Data Analysis**
+### **7. Fuel Economy Data Analysis**
 
 *Vehicle performance clustering to improve environmental impact strategy*
 
