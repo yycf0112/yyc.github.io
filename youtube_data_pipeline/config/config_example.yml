@@ -1,0 +1,8 @@
+aws:
+  region: "eu-west-1"
+  s3_bucket: "your-bucket-name"
+
+youtube:
+  api_key: "YOUR_KEY"
+  channel_id: "CHANNEL_ID"
+  max_results: 20
